@@ -11,10 +11,13 @@ Make sure to setup the correct document root in docker-composer.yml
 
 
 
-## Useful commands
-
-**ssh compose docker file**
+**start docker instance**
 MYIP=$(ipconfig getifaddr en0) docker-compose up -d
+
+**Access**
+Accesss through: http://localhost:8083
+
+## Useful commands
 
 **ssh into docker container:**
 docker ps
