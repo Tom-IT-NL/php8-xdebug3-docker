@@ -5,24 +5,29 @@
 Make sure to setup the correct document root in docker-composer.yml
 
 **DB**
+* database host: your ip address
 * database name: db
 * user: user
 * password: password
 
 
 
-**start docker instance**
-When on Unix (Linux, MacOS)
+## Start docker instance
+
+***When on Unix (Linux, MacOS)***
+
 MYIP=$(ipconfig getifaddr en0) docker-compose up -d
 
-When on windows:
+***When on windows:***
+
 Get your ip address with ipconfig
 MYIP=your-ip-address docker-compose up -d
 
 (Ip address is ipaddress of wlan or wifi)
 
-**Access**
-Accesss through: http://localhost:8083
+## Access
+Accesss web through: http://localhost:8083
+Access db with sql interface using your ip address
 
 ## Useful commands
 
