@@ -19,7 +19,7 @@ services:
       dockerfile: php.dockerfile
     volumes:
       - type: bind
-        source: ~/Documents/dev/RecordsServer
+        source: ../
         target: /var/www
         consistency: cached
       - ./tmp/grinds:/tmp/grinds
