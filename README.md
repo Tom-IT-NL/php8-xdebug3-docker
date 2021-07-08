@@ -3,6 +3,7 @@
 **Docker configuration to easily setup a working development environment with xdebug**
 
 Make sure to setup the correct document root in docker-composer.yml
+Make sure to give your project a name in the .env file, otherwise the db and other containers will destroy themselves if you start another docker app
 
 **DB**
 * database host: your ip address
